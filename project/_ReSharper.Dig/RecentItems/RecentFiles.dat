@@ -1,4 +1,16 @@
 ﻿<RecentFiles>
-  <RecentFiles />
-  <RecentEdits />
+  <RecentFiles>
+    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Views/d:Home/f:Contact.cshtml" caret="0" fromTop="0" />
+    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Areas/d:BracketGen/d:Controllers/f:HomeController.cs" caret="352" fromTop="16" />
+    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Areas/d:BracketGen/d:Views/d:Home/f:Index.cshtml" caret="119" fromTop="4" />
+    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Views/d:Shared/f:_Layout.cshtml" caret="743" fromTop="17" />
+    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Views/d:Shared/f:_LayoutBracketGen.cshtml" caret="0" fromTop="0" />
+    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Areas/d:BracketGen/f:BracketGenAreaRegistration.cs" caret="396" fromTop="12" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Areas/d:BracketGen/d:Controllers/f:HomeController.cs" caret="329" fromTop="15" />
+    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Areas/d:BracketGen/d:Views/d:Home/f:Index.cshtml" caret="563" fromTop="25" />
+  </RecentEdits>
 </RecentFiles>
