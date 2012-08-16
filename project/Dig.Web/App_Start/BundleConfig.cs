@@ -8,14 +8,14 @@ namespace Dig.Web
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-1.*"));
+                        "~/Scripts/jQuery/jquery-1.7*"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
-                        "~/Scripts/jquery-ui*"));
+                        "~/Scripts/jQueryUi/jquery-ui*"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.unobtrusive*",
-                        "~/Scripts/jquery.validate*"));
+                        "~/Scripts/jQuery/jquery.unobtrusive*",
+                        "~/Scripts/jQuery/jquery.validate*"));
 
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
@@ -35,6 +35,16 @@ namespace Dig.Web
                         "~/Content/themes/base/jquery.ui.datepicker.css",
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
+
+
+            bundles.Add(new ScriptBundle("~/bundles/kendoUi").Include(
+                        "~/Scripts/kendoUi/kendo.web.js",
+                        "~/Scripts/kendoUi/kendo.web-vsdoc.js"
+                        ));
+
+            bundles.Add(new StyleBundle("~/Content/kendoUi").Include(
+                        "~/Content/kendoUi/kendo.common.css",
+                        "~/Content/kendoUi/kendo.default.css"));
         }
     }
 }

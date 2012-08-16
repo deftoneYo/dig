@@ -1,16 +1,32 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
-    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
-    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Views/d:Home/f:Contact.cshtml" caret="0" fromTop="0" />
-    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Areas/d:BracketGen/d:Controllers/f:HomeController.cs" caret="352" fromTop="16" />
-    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Areas/d:BracketGen/d:Views/d:Home/f:Index.cshtml" caret="119" fromTop="4" />
-    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Views/d:Shared/f:_Layout.cshtml" caret="743" fromTop="17" />
-    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Views/d:Shared/f:_LayoutBracketGen.cshtml" caret="0" fromTop="0" />
-    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Areas/d:BracketGen/f:BracketGenAreaRegistration.cs" caret="396" fromTop="12" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/f:Web.config" caret="1341" fromTop="22" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Controllers/f:HomeController.cs" caret="692" fromTop="30" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Scripts/d:jQuery/f:jquery.validate-vsdoc.js" caret="0" fromTop="0" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Scripts/d:kendoUi/f:kendo.mobile.scroller.js" caret="0" fromTop="0" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Scripts/d:kendoUi/f:kendo.web-vsdoc.js" caret="752" fromTop="46" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Views/d:Shared/f:_Layout.cshtml" caret="2178" fromTop="53" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/f:MockAreaRegistration.cs" caret="0" fromTop="0" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Controllers/f:MockController.cs" caret="409" fromTop="19" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Views/d:Mock/f:AutoComplete.cshtml" caret="583" fromTop="27" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Views/d:Shared/f:_DigLayout.cshtml" caret="300" fromTop="0" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Views/d:Mock/f:Index.cshtml" caret="232" fromTop="9" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Scripts/d:jQuery/f:jquery-1.6.2-vsdoc.js" caret="1879" fromTop="18" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Scripts/d:jQuery/f:jquery-1.6.2.js" caret="0" fromTop="0" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Scripts/d:jQuery/f:jquery-1.7.1.js" caret="0" fromTop="0" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Scripts/d:jQueryUi/f:jquery-ui-1.8.11.js" caret="0" fromTop="0" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Scripts/d:jQuery/f:jquery.unobtrusive-ajax.js" caret="827" fromTop="23" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:App_Start/f:BundleConfig.cs" caret="1181" fromTop="27" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Views/d:Mock/f:EventGrid.cshtml" caret="2092" fromTop="53" />
   </RecentFiles>
   <RecentEdits>
-    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Areas/d:BracketGen/d:Controllers/f:HomeController.cs" caret="329" fromTop="15" />
-    <File id="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC/d:Areas/d:BracketGen/d:Views/d:Home/f:Index.cshtml" caret="563" fromTop="25" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Controllers/f:HomeController.cs" caret="692" fromTop="30" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Views/d:Shared/f:_DigLayout.cshtml" caret="300" fromTop="7" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Controllers/f:MockController.cs" caret="456" fromTop="21" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Views/d:Mock/f:AutoComplete.cshtml" caret="583" fromTop="27" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Views/d:Mock/f:Index.cshtml" caret="82" fromTop="2" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:App_Start/f:BundleConfig.cs" caret="642" fromTop="17" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Views/d:Mock/f:EventGrid.cshtml" caret="2092" fromTop="53" />
   </RecentEdits>
 </RecentFiles>

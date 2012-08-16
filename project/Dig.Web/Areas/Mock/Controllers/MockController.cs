@@ -16,5 +16,17 @@ namespace Dig.Web.Areas.Mock.Controllers
             return View();
         }
 
+        #region Generic Mocks
+        public ActionResult AutoComplete()
+        {
+            return View();
+        }
+        #endregion
+
+        public ActionResult EventGrid()
+        {
+            return View();
+        }
+
     }
 }
