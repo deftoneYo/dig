@@ -1,3 +1,5 @@
 <Modules>
   <Module PersistentId="8CD46167-2230-4B9D-B0C3-212F8B2FEAAC" ModuleId="Dig.Web" />
+  <Module PersistentId="701C433E-E1A0-46A2-8F9A-27E2EA06E51A" ModuleId="Dig.Mock.Web" />
+  <Module PersistentId="E01064A5-7BF1-451A-90EC-DFACA2B349DD" ModuleId="Dig.Web_1" />
 </Modules>
