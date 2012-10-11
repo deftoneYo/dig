@@ -1,6 +1,5 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/f:Web.config" caret="1341" fromTop="22" />
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Controllers/f:HomeController.cs" caret="692" fromTop="30" />
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Scripts/d:jQuery/f:jquery.validate-vsdoc.js" caret="0" fromTop="0" />
@@ -10,15 +9,21 @@
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/f:MockAreaRegistration.cs" caret="0" fromTop="0" />
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Controllers/f:MockController.cs" caret="409" fromTop="19" />
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Views/d:Mock/f:AutoComplete.cshtml" caret="583" fromTop="27" />
-    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Views/d:Shared/f:_DigLayout.cshtml" caret="300" fromTop="0" />
-    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Views/d:Mock/f:Index.cshtml" caret="232" fromTop="9" />
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Scripts/d:jQuery/f:jquery-1.6.2-vsdoc.js" caret="1879" fromTop="18" />
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Scripts/d:jQuery/f:jquery-1.6.2.js" caret="0" fromTop="0" />
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Scripts/d:jQuery/f:jquery-1.7.1.js" caret="0" fromTop="0" />
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Scripts/d:jQueryUi/f:jquery-ui-1.8.11.js" caret="0" fromTop="0" />
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Scripts/d:jQuery/f:jquery.unobtrusive-ajax.js" caret="827" fromTop="23" />
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:App_Start/f:BundleConfig.cs" caret="1181" fromTop="27" />
-    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Views/d:Mock/f:EventGrid.cshtml" caret="2092" fromTop="53" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/f:Web.config" caret="0" fromTop="0" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Views/d:Mock/f:EventGrid.cshtml" caret="1055" fromTop="27" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Views/d:Shared/f:_DigLayout.cshtml" caret="300" fromTop="0" />
+    <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Views/d:Mock/f:Index.cshtml" caret="232" fromTop="9" />
+    <File id="2385E16C-A8D3-4C21-AFEE-6ECE754B96B8/f:Context.cs" caret="97" fromTop="10" />
+    <File id="78E3E14A-669D-4A8E-B57D-349B15251072/f:Address.cs" caret="0" fromTop="0" />
+    <File id="78E3E14A-669D-4A8E-B57D-349B15251072/f:Location.cs" caret="0" fromTop="0" />
+    <File id="4692757B-7FAB-49A9-B6CF-9202CAF4DB65/f:EventRepo.cs" caret="0" fromTop="0" />
+    <File id="2385E16C-A8D3-4C21-AFEE-6ECE754B96B8/d:Migrations/f:Configuration.cs" caret="349" fromTop="13" />
   </RecentFiles>
   <RecentEdits>
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Controllers/f:HomeController.cs" caret="692" fromTop="30" />
@@ -28,5 +33,9 @@
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Views/d:Mock/f:Index.cshtml" caret="82" fromTop="2" />
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:App_Start/f:BundleConfig.cs" caret="642" fromTop="17" />
     <File id="E01064A5-7BF1-451A-90EC-DFACA2B349DD/d:Areas/d:Mock/d:Views/d:Mock/f:EventGrid.cshtml" caret="2092" fromTop="53" />
+    <File id="78E3E14A-669D-4A8E-B57D-349B15251072/f:Location.cs" caret="340" fromTop="13" />
+    <File id="78E3E14A-669D-4A8E-B57D-349B15251072/f:Address.cs" caret="416" fromTop="15" />
+    <File id="2385E16C-A8D3-4C21-AFEE-6ECE754B96B8/f:Context.cs" caret="80" fromTop="5" />
+    <File id="2385E16C-A8D3-4C21-AFEE-6ECE754B96B8/d:Migrations/f:Configuration.cs" caret="349" fromTop="13" />
   </RecentEdits>
 </RecentFiles>

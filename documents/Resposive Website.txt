@@ -1,0 +1,13 @@
+http://www.nealite.fr/blog/expertise/agence-nealite-responsive-design-2-6028.htm
+
+0 to 500px - Mobile (most are between 320 and 480px)
+From 501 to 959 px - Tablets, notepad, old pc ...
+960 to 1279px - laptop, old pc ...
+More than 1280px - Desktops (many industry professionals use our websites, many with screens greater than 23 ", hence the interest to provide an improved version of the site)
+
+To summarize: our 5 tips
+1 define early tipping points
+2 start the ergonomic design of the mobile
+3 validate the artistic direction of HD screens and adapt to progressively to mobile
+4 verify the integration of all devices and browsers
+5 and especially be on permanent watch on new tricks and new terminals to iterate regularly!
