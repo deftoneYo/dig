@@ -1,0 +1,80 @@
+﻿@{
+    ViewBag.Title = "Mock Variety Grid";
+    Layout = "~/Views/Shared/_DigLayout.cshtml";
+}
+
+<h2>Variety Grid</h2>
+
+<script>
+	$(function () {
+		$("#varietyGrid").kendoGrid({
+			dataSource: {
+				transport: {
+					read: "http://localhost:4369/api/MockVarieties",
+					type: "json"
+				}
+			}
+		});
+
+	});
+</script>
+<div style=""width:700px;">
+	<div id="varietyGrid"></div>
+</div>
+
+<div id="test">aa</div>
+
+@*<div id="example" class="k-content">
+            <div id="grid"></div>
+            <script>
+	            $(document).ready(function() {
+		            $("#grid").kendoGrid({
+			            dataSource: {
+				            type: "json",
+				            transport: {
+					            read: "http://localhost:4369/api/MockVarieties"
+				            },
+				            schema: {
+					            model: {
+						            fields: {
+							            Name: { type: "string" }
+						            }
+					            }
+				            },
+				            pageSize: 2,
+				            serverPaging: false,
+				            serverFiltering: false,
+				            serverSorting: false
+			            },
+			            height: 250,
+			            filterable: true,
+			            sortable: true,
+			            pageable: true,
+			            selectable: true,
+			            columns: [
+				            "Id",
+				            "Name",
+				            "LongDescription",
+				            "DateStart",
+				            "DateEnd",
+				            "DateTimeStart",
+				            "DateTimeEnd",
+				            "IsActive",
+				            "RefVarietyTypeId"
+				            
+			            ]
+		            });
+	            });
+            </script>
+</div>		  *@
+
+<script>
+
+	$(document).ready(function() {
+		$(".disabled").click(function() {
+			alert('hello');
+		});
+	});
+</script>
+
+<input class='disabled' type='checkbox'  />

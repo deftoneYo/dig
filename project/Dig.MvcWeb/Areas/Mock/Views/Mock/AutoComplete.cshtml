@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "AutoComplete";
+    Layout = "~/Views/Shared/_DigLayout.cshtml";
+}
+
+<h2>AutoComplete</h2>
+
+
+<p>
+    Country: <input id="countriesAutoComplete" class="k-input" />
+</p>
+
+<script type="text/javascript">
+    
+    var countries = ["Australia", "Canada", "United States of America"];
+
+    var countriesDataSource = new kendo.data.DataSource({
+        data: countries
+    });
+
+    $(function () {
+        $("#countriesAutoComplete").kendoAutoComplete({
+            dataSource: countriesDataSource
+        });
+        
+    });
+    
+</script>

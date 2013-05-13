@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web", "web\web.csproj", "{3EB365BE-1EDB-4586-9125-E02F7C062011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapi", "webapi\webapi.csproj", "{CC340AEF-DA3B-4725-B19F-08F3D4BC7A13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapiCodeFirst", "webapiCodeFirst\webapiCodeFirst.csproj", "{43BBC1C1-D8B2-416E-8468-E32F09E9D595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocoGeneration", "PocoGeneration\PocoGeneration.csproj", "{32EEF303-6234-420F-94EE-CA2EC3C462FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EB365BE-1EDB-4586-9125-E02F7C062011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB365BE-1EDB-4586-9125-E02F7C062011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB365BE-1EDB-4586-9125-E02F7C062011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB365BE-1EDB-4586-9125-E02F7C062011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC340AEF-DA3B-4725-B19F-08F3D4BC7A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC340AEF-DA3B-4725-B19F-08F3D4BC7A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC340AEF-DA3B-4725-B19F-08F3D4BC7A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC340AEF-DA3B-4725-B19F-08F3D4BC7A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43BBC1C1-D8B2-416E-8468-E32F09E9D595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BBC1C1-D8B2-416E-8468-E32F09E9D595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BBC1C1-D8B2-416E-8468-E32F09E9D595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BBC1C1-D8B2-416E-8468-E32F09E9D595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32EEF303-6234-420F-94EE-CA2EC3C462FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32EEF303-6234-420F-94EE-CA2EC3C462FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32EEF303-6234-420F-94EE-CA2EC3C462FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32EEF303-6234-420F-94EE-CA2EC3C462FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

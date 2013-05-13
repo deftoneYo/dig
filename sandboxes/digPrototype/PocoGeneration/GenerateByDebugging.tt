@@ -1,0 +1,102 @@
+﻿<#@ template language="C#" debug="True" #>
+
+<#@ assembly name="System.Data" #>
+<#@ assembly name="Microsoft.SqlServer.Smo" #>
+<#@ assembly name="Microsoft.SqlServer.ConnectionInfo" #>
+<#@ assembly name="Microsoft.SqlServer.Management.Sdk.Sfc" #>
+<#@ assembly name="System.Xml.Serialization" #>
+<#@ assembly name="System.Xml" #>
+
+<#@ import namespace="System" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="Microsoft.SqlServer.Management.Smo" #>
+
+
+using System;
+
+namespace Entities 
+{
+    
+<#             Server srv = new Server("localhost\\sqlexpress");
+			
+            foreach (Table table in srv.Databases["DigDb"].Tables)
+            {
+            
+#>
+        class <#= table.Name #> 
+        {
+            <# 
+                foreach (Column col in table.Columns)
+                {
+                #>
+                    public <#= GetNetDataType(col.DataType.Name) #> <#= col.Name #> { get; set; }
+                <#
+                }
+             #>
+        }
+        
+<#            } 
+#>
+}
+
+
+
+<#+
+        public static string GetNetDataType(string sqlDataTypeName)
+        {
+
+            switch (sqlDataTypeName.ToLower())
+            {
+                case "bigint":
+                    return "Int64";
+                case "binary":
+                    return "Byte[]";
+                case "bit":
+                    return "bool";
+                case "char":
+                    return "char";
+                case "cursor":
+                    return string.Empty;
+                case "datetime":
+                    return "DateTime";
+                case "decimal":
+                    return "Decimal";
+                case "float":
+                    return "Double";
+                case "int":
+                    return "int";
+                case "money":
+                    return "Decimal";
+                case "nchar":
+                    return "string";
+                case "numeric":
+                    return "Decimal";
+                case "nvarchar":
+                    return "string";
+                case "real":
+                    return "single";
+                case "smallint":
+                    return "Int16";
+                case "text":
+                    return "string";
+                case "tinyint":
+                    return "Byte";
+                case "varbinary":
+                    return "Byte[]";
+                case "xml":
+                    return "string";
+                case "varchar":
+                    return "string";
+                case "smalldatetime":
+                    return "DateTime";
+                case "image":
+                    return "byte[]";
+                
+                default:
+                    return string.Empty;
+            }
+
+      
+        
+        }
+#>

@@ -1,0 +1,69 @@
+﻿@{
+    ViewBag.Title = "EventGrid";
+    Layout = "~/Views/Shared/_DigLayout.cshtml";
+}
+
+<h2>EventGrid</h2>
+
+
+
+<div id="test">aa</div>
+
+<div id="example" class="k-content">
+            <div id="grid"></div>
+            <script>
+	            $(document).ready(function() {
+		            $("#grid").kendoGrid({
+			            dataSource: {
+				            type: "json",
+				            transport: {
+					            read: "http://localhost:4369/api/Events"
+				            },
+				            schema: {
+					            model: {
+						            fields: {
+							            Name: { type: "string" }
+						            }
+					            }
+				            },
+				            pageSize: 2,
+				            serverPaging: false,
+				            serverFiltering: false,
+				            serverSorting: false
+			            },
+			            height: 250,
+			            filterable: true,
+			            sortable: true,
+			            pageable: true,
+			            selectable: true,
+			            columns: [
+				            { title: "Id", field: "Id", width:50},
+				            "RefCompositionId",
+				            "RefSportId",
+				            "RefSkillLevelId",
+				            "Name",
+				            "Description",
+				            "DateStart",
+				            "DateEnd",
+				            "Priority",
+				            "CashPrize",
+				            "OtherPrize",
+				            "PrizeDescription",
+				            "EntranceFee",
+				            { title: "Active", field: "IsActive", template: "<input class='disabled' type='checkbox' #if (IsActive){ # checked # } # disabled />" }
+			            ]
+		            });
+	            });
+            </script>
+</div>		  
+
+<script>
+
+	$(document).ready(function() {
+		$(".disabled").click(function() {
+			alert('hello');
+		});
+	});
+</script>
+
+<input class='disabled' type='checkbox'  />
