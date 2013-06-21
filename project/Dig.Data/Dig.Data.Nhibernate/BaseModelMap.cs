@@ -16,7 +16,6 @@ namespace Dig.Data.Nhibernate
 			Property(x => x.ModifiedDate);
 			Property(x => x.IsActive);
 		}
-
 	}
 
 	public class LocationMap : BaseModelMap<Location>

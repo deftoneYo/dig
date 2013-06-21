@@ -9,12 +9,13 @@ using NHibernate.Dialect;
 using NHibernate.Driver;
 using NHibernate.Mapping.ByCode;
 using NHibernate.Tool.hbm2ddl;
+using System.Configuration;
 
 namespace Dig.Data.Nhibernate
 {
 	public class NhibernateHelper
 	{
-		protected static Configuration NhConfiguration;
+		protected static NHibernate.Cfg.Configuration NhConfiguration;
 		protected static ISessionFactory LocalSessionFactory;
 
 		private static ISessionFactory _sessionFactory;
@@ -52,31 +53,20 @@ namespace Dig.Data.Nhibernate
 			LocalSessionFactory = NhConfiguration.BuildSessionFactory();
 		}
 
-		public static Configuration ConfigureNhibernate()
+		public static NHibernate.Cfg.Configuration ConfigureNhibernate()
 		{
 
-			var configure = new Configuration();
+			var configure = new  NHibernate.Cfg.Configuration();
 			configure.SessionFactoryName("BuildIt");
 
-			//#if DEBUG
-			//	configure.Properties.Add("generate_statistics", "true");
-			//#endif
-
-			
-			
 			configure.DataBaseIntegration(db =>
 			{
 				//*** SQL 2012 Express
 				db.Dialect<MsSql2012Dialect>();
 				db.Driver<SqlClientDriver>();
-				db.ConnectionString = "Data Source=.\\sqlexpress2012;Initial Catalog=Dig;Integrated Security=True;Application Name=DigDb;";
 
-				
-				//*** SQL CE
-				//db.ConnectionProvider<DriverConnectionProvider>();
-				//db.Dialect<MsSqlCeDialect>();
-				//db.Driver<SqlServerCeDriver>();
-				//db.ConnectionString = "F:\\github\\dig\\project\\Dig.Data\\Dig.Data.Nhibernate\\DigBuildDb.sdf;";
+				db.ConnectionString = "Data Source=.\\sqlexpress2012;Initial Catalog=Dig;Integrated Security=True;Application Name=DigDb;";
+				//db.ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings["digdb"].ConnectionString;
 
 				db.Timeout = 10;
 
@@ -92,7 +82,6 @@ namespace Dig.Data.Nhibernate
 		{
 			var mapper = new ModelMapper();
 
-			//mapper.AddMapping<BaseModelMap>();
 			mapper.AddMapping<LocationMap>();
 			mapper.AddMapping<AddressMap>();
 			mapper.AddMapping<UserMap>();

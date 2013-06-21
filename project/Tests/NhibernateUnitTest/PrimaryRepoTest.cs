@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using Dig.Data.Models;
+using Dig.Data.Repositories;
 using NHibernate;
 using NHibernate.Cfg;
 using NHibernate.Linq;
@@ -13,6 +14,7 @@ namespace NhibernateUnitTest
 	[TestFixture]
 	public class PrimaryRepoTest
 	{
+		private Dig.Data.Repositories.LocationRepository _locationRepo = new LocationRepository();
 		[SetUp]
 		public void Setup()
 		{
@@ -51,7 +53,6 @@ namespace NhibernateUnitTest
 
 			}
 
-
 			[Test]
 			public void Location_Can_Edit()
 			{
@@ -59,6 +60,14 @@ namespace NhibernateUnitTest
 
 				var repo = new Dig.Data.Repositories.LocationRepository();
 				repo.Update(location);
+			}
+
+			[Test]
+			public void Location_Get_All()
+			{
+				var records = _locationRepo.GetAll();
+				Console.WriteLine("count = " + records.Count.ToString());
+				Assert.IsTrue(records.Count > 0);
 			}
 		#endregion
 
