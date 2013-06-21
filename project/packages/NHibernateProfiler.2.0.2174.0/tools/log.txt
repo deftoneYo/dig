@@ -1,0 +1,29 @@
+2013-06-20 15:31:27,141 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2174
+2013-06-20 15:31:27,387 [1] ERROR HibernatingRhinos.Profiler.Client.Startup.SilverlightGuiCommand [(null)] - An error occurred while starting the backend client service. Please send us the log.txt file to support@hibernatingrhinos.com
+System.Net.HttpListenerException (0x80004005): Failed to listen on prefix 'http://+:17560/' because it conflicts with an existing registration on the machine.
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at HibernatingRhinos.Profiler.Client.Host.NonAdminHttp.CanStartHttpListener(Int32 port)
+   at HibernatingRhinos.Profiler.Client.Host.NonAdminHttp.EnsureCanListenToWhenInNonAdminContext(Int32 port)
+   at HibernatingRhinos.Profiler.Client.Host.OutOfProcessClientService.StartWithOutOfProcessListener(String contextFile)
+   at HibernatingRhinos.Profiler.Client.Startup.SilverlightGuiCommand.Execute()
+2013-06-20 15:36:45,563 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2174
+2013-06-20 15:36:45,794 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-06-20 15:36:45,794 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-06-20 15:36:47,394 [6] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/21/2013 00:00:00
+2013-06-20 15:36:47,460 [6] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-06-20 15:36:47,465 [9] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-06-20 15:36:47,512 [6] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-06-20 15:36:47,655 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) in z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:line 133
+   at NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() in z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:line 175
+2013-06-20 16:24:41,150 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2174
+2013-06-20 16:24:41,385 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-06-20 16:24:41,385 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-06-20 16:24:43,136 [10] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/21/2013 00:00:00
+2013-06-20 16:24:43,205 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-06-20 16:24:43,207 [9] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-06-20 16:24:43,250 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-06-20 16:24:43,392 [9] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) in z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:line 133
+   at NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() in z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:line 175

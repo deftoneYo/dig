@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace Dig.Data.DomainClasses
+namespace Dig.Data.Models
 {
-    public class Location
+    public class Location : BaseModel
     {
-	    public int LocationId { get; set; }
-	    public string Name { get; set; }
-	    public string NickName { get; set; }
-	    public int AddressId { get; set; }
+	    public virtual string Name { get; set; }
+	    public virtual string NickName { get; set; }
+		//public virtual int LocationTypeId { get; set; }
+		public virtual int AddressId { get; set; }
     }
 }
