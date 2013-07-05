@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E17FACF0-2D0A-4F47-AFFD-FCEB24D54CB4}</ProjectGuid>
+    <ProjectGuid>{D589BD76-F5B0-4ECB-91D2-1296D08B897D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dig.Data.Repositories</RootNamespace>
-    <AssemblyName>Dig.Data.Repositories</AssemblyName>
+    <RootNamespace>Dig.Data.Maps</RootNamespace>
+    <AssemblyName>Dig.Data.Maps</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,25 +30,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HibernatingRhinos.Profiler.Appender, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0774796e73ebf640, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\NHibernateProfiler.2.0.2174.0\lib\HibernatingRhinos.Profiler.Appender.dll</HintPath>
-    </Reference>
     <Reference Include="Iesi.Collections">
       <HintPath>..\..\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
-    </Reference>
     <Reference Include="NHibernate">
       <HintPath>..\..\packages\NHibernate.3.3.3.4000\lib\Net35\NHibernate.dll</HintPath>
-    </Reference>
-    <Reference Include="NHibernate.Validator">
-      <HintPath>..\..\packages\NHibernate.Validator.1.3.2.4000\lib\Net35\NHibernate.Validator.dll</HintPath>
-    </Reference>
-    <Reference Include="NHibernate.Validator.Specific">
-      <HintPath>..\..\packages\NHibernate.Validator.1.3.2.4000\lib\Net35\NHibernate.Validator.Specific.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -57,36 +43,22 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="WebActivator, Version=1.4.4.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\WebActivator.1.4.4\lib\net40\WebActivator.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddressRespository.cs" />
-    <Compile Include="App_Start\NHibernateProfilerBootstrapper.cs" />
-    <Compile Include="LocationRepository.cs" />
-    <Compile Include="NhibernateHelper.cs" />
+    <Compile Include="AddressMap.cs" />
+    <Compile Include="BaseModelMap.cs" />
+    <Compile Include="UserMap.cs" />
+    <Compile Include="LocationMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interface\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Dig.Data.Maps\Dig.Data.Maps.csproj">
-      <Project>{d589bd76-f5b0-4ecb-91d2-1296d08b897d}</Project>
-      <Name>Dig.Data.Maps</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Dig.Data.Models\Dig.Data.Models.csproj">
-      <Project>{c007ee6d-417b-4e94-944b-021c21e13b49}</Project>
-      <Name>Dig.Data.Models</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Start\NHibernateProfilerBootstrapper.vb" />
+    <ProjectReference Include="..\Dig.Data.Models\Dig.Data.Models.csproj">
+      <Project>{c007ee6d-417b-4e94-944b-021c21e13b49}</Project>
+      <Name>Dig.Data.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

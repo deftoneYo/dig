@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using Dig.Data.Models;
-using Dig.Data.Nhibernate;
 using NHibernate;
 using NHibernate.Criterion;
 using NHibernate.Linq;
@@ -20,7 +19,21 @@ namespace Dig.Data.Repositories
 			{
 				using (var session = NhibernateHelper.OpenSession())
 				{
-					var locations = from location in session.Query<Location>().Where(y => y.IsActive) select location;
+					var locations = session.Query<Location>()
+					                       .Where(y => y.IsActive);
+					return locations.ToList();
+				}
+			}
+
+
+			public ICollection<Location> SearchByName(string term)
+			{
+				using (var session = NhibernateHelper.OpenSession())
+				{
+					var locations = session.Query<Location>()
+					                       .Where(y => y.IsActive)
+					                       .Where(y => y.Name.Contains(term));
+								
 					return locations.ToList();
 				}
 			}

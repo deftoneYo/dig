@@ -1,1 +1,0 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="Dig.Wcf.WebHost.Service1" CodeBehind="EventService.svc.cs" %>

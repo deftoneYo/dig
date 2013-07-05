@@ -87,11 +87,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddressMap.cs" />
     <Compile Include="App_Start\NHibernateProfilerBootstrapper.cs" />
-    <Compile Include="BaseModelMap.cs" />
     <Compile Include="ILocationRepository.cs" />
-    <Compile Include="LocationMap.cs" />
     <Compile Include="NhibernateHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />

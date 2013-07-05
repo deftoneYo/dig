@@ -1,6 +1,5 @@
 ﻿using System;
 using Dig.Data.Models;
-using Dig.Data.Nhibernate;
 
 namespace Dig.Data.Repositories
 {

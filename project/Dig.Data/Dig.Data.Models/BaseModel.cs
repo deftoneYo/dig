@@ -5,6 +5,11 @@ namespace Dig.Data.Models
 {
 	public class BaseModel
 	{
+        public BaseModel()
+        {
+            IsActive = false;
+        }
+      
 		[ScaffoldColumn(false)]
 		public virtual int Id { get; set; }
 		public virtual int ModifiedByUserId { get; set; }
